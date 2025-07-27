@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Holy Trinity</title>
+    {{ with resources.Get "css/style.css" }}
+      <link href="{{ .RelPermalink }}" rel="stylesheet" />
+    {{ end }}
+  </head>
+  <body>
+    <h1>Holy trinity</h1>
+    <div class="container">
+      <div class="color-box" style="background: orange;"></div>
+      <div class="color-box" style="background: lime;"></div>
+      <div class="color-box" style="background: red;"></div>
+    </div>
+  </body>
+</html>
