@@ -1,0 +1,17 @@
+@layer base {
+  body {
+    background: #0000cd;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .color-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
