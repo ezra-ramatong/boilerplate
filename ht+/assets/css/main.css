@@ -1,8 +1,0 @@
-@import "tailwindcss";
-@source "hugo_stats.json";
-
-@layer components {
-  .color-box {
-    @apply w-12 h-12;
-  }
-}
