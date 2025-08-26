@@ -1,21 +1,10 @@
 @layer reset, base, tokens, layout, components, utilities;
 
-/* Reset */
-@import "base/reset.css";
+@import "reset.css";
+@import "base.css";
+@import "tokens.css";
+@import "layout.css";
 
-/* Base styles*/
-@import "base/base.css";
+/* @import "compontents/bosko.css"; */
 
-/* Tokens */
-@import "tokens/primitive.css";
-@import "tokens/semantic.css";
-
-/* Layout */
-@import "layout/macro.css";
-@import "layout/micro.css";
-
-/* Components */
-/* @import "compontents/"; */
-
-/* Utilities */
-@import "utilities/utilities.css";
+@import "utilities.css";

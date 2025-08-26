@@ -1,0 +1,6 @@
+@layer tokens{
+  :root {
+    --color-white: hsla(0, 0%, 100%, 1);
+  }
+}
+
