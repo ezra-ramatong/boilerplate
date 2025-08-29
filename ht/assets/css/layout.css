@@ -1,11 +1,8 @@
 @layer layout {
   /* Center*/
   .l-center {
-    display: block;
-    box-sizing: content-box;
-    margin-inline: auto;
+    @apply block box-border mx-auto px-4;
     max-inline-size: var(--measure, 65ch);
-    padding-inline: var(--space, 1rem);
   }
 
   /* Cluster*/
@@ -14,9 +11,7 @@
   }
 
   .l-cluster {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space, 1rem);
+    @apply flex flex-wrap gap-4;
   }
 
   /* Cover */

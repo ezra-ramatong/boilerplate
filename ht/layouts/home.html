@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ .Site.Title }}</title>
-    {{ partial "css.html" }}
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ partial "css.html" . }}
+    {{ end }}
   </head>
   <body>
-    <div class="l-center">
-      <div class="l-cover">
-        <h1 class="l-cover__centered u-text-center">Holy trinity</h1>
-      </div>
+    <div class="l-cover items-center">
+      <h1 class="l-cover__centered text-blue-500">Holy Trinity</h1>
     </div>
   </body>
 </html>
