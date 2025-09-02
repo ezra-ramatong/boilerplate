@@ -1,0 +1,5 @@
+@layer compositions {
+  .cluster {
+    @apply flex flex-wrap gap-4;
+  }
+}

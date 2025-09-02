@@ -1,11 +1,17 @@
-@layer theme, base, layout, components, utilities;
+@layer theme, base, components, compositions, utilities;
 
+/* TailwindCSS */
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities) important;
-@source "hugo_stats.json";
+@import "tailwindcss/utilities.css" layer(utilities);
 
-@import "base.css";
+/* Base */
 @import "tokens.css";
-@import "layout.css";
-@import "components.css";
+@import "base.css";
+
+/* Components */
+
+/* Compositions */
+@import "compositions/stack.css";
+
+@source "hugo_stats.json";

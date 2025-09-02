@@ -1,0 +1,5 @@
+@layer compositions {
+  .split {
+    @apply flex flex-wrap justify-between gap-4;
+  }
+}
