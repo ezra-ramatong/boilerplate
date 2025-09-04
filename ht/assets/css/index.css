@@ -12,6 +12,6 @@
 /* Components */
 
 /* Compositions */
-@import "compositions/stack.css";
+@import "compositions/flow.css";
 
 @source "hugo_stats.json";
