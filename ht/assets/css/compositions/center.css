@@ -1,5 +1,0 @@
-@layer compositions {
-  .center {
-    @apply mx-auto box-border block max-w-prose px-4;
-  }
-}
