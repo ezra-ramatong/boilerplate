@@ -1,0 +1,5 @@
+@layer compositions {
+  .flow {
+    @apply flex flex-col gap-4;
+  }
+}

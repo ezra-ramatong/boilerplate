@@ -1,0 +1,7 @@
+@layer compositions {
+  .tiles {
+    display: grid;
+    gap: --spacing(8);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

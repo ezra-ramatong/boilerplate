@@ -1,0 +1,14 @@
+@layer theme, base, components, compositions, utilities;
+
+/* TailwindCSS */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Base */
+@import "./tokens.css";
+@import "./base.css";
+
+/* Compositions */
+@import "./compositions/flow.css";
+

@@ -1,0 +1,5 @@
+@layer compositions {
+  .center {
+    @apply mx-auto box-border block min-h-dvh max-w-6xl px-8 py-14 md:px-5;
+  }
+}
