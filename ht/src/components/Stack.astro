@@ -1,0 +1,18 @@
+---
+interface Props {
+  space?: number | string;
+}
+
+const { space = 4 } = Astro.props;
+---
+
+<div class="stack gap-{space}">
+  <slot />
+</div>
+
+<style>
+  @reference "../styles/index.css";
+  .stack {
+    @apply flex flex-col;
+  }
+</style>

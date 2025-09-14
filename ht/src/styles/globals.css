@@ -1,0 +1,11 @@
+@layer base {
+  body {
+    line-height: 1.5;
+    font-family: var(--font-aspekta);
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    color: var(--color-blue-500);
+  }
+}

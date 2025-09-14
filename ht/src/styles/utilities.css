@@ -1,0 +1,20 @@
+@utility flow {
+  @apply flex flex-col gap-4;
+}
+
+@utility split {
+  @apply flex flex-wrap justify-between gap-4;
+}
+
+@utility cluster {
+  @apply flex flex-wrap gap-4;
+}
+
+@utility container {
+  @apply mx-auto px-8 min-xl:max-w-6xl;
+}
+
+@utility pancake {
+  @apply grid min-h-dvh;
+  grid-template-rows: auto 1fr auto;
+}
